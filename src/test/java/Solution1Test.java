@@ -6,12 +6,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class Solution1Test {
     @Test
-    public void Created(){
+    public void created(){
         Solution1 solution1 = new Solution1();
         assertThat(solution1).isNotNull();
     }
     @Test
-    public void Output(){
+    public void output(){
         int[] result1 = {5, 6, 3};
         int[] result2 = {3, 2, 2};
         Solution1 solution1 = new Solution1();
